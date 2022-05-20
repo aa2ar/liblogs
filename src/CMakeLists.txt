@@ -28,7 +28,7 @@ install(FILES ${hdr_files} DESTINATION /usr/local/include/${CMAKE_PROJECT_NAME} 
 set(PKG_VENDOR "aa2ar")
 set(PKG_SUMMARY "Basic C++ logging library")
 set(PKG_DESCRIPTION "Basic C++ logging library")
-set(PKG_CONTACT "Alexander Arefev, alex.arefyev@gmail.com")
+set(PKG_CONTACT "Alexander Arefyev, alex.arefyev@gmail.com")
 
 # generate packages
 include(mkpackage)

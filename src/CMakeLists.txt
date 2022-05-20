@@ -25,10 +25,10 @@ install(TARGETS ${LIBLOGS_TARGET_NAME} ${LIBLOGS_TARGET_NAME}-static DESTINATION
 install(FILES ${hdr_files} DESTINATION /usr/local/include/${CMAKE_PROJECT_NAME} COMPONENT dev)
 
 # package info
-set(PKG_VENDOR "aa2")
-set(PKG_SUMMARY "Basic logging system for C++")
-set(PKG_DESCRIPTION "Basic logging system for C++")
-set(PKG_CONTACT "Alexander Arefyev, alex.arefyev@gmail.com")
+set(PKG_VENDOR "aa2ar")
+set(PKG_SUMMARY "Basic C++ logging library")
+set(PKG_DESCRIPTION "Basic C++ logging library")
+set(PKG_CONTACT "Alexander Arefev, alex.arefyev@gmail.com")
 
 # generate packages
 include(mkpackage)
